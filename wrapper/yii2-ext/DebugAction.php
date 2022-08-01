@@ -8,7 +8,7 @@
  * @license http://www.xunsearch.com/license/
  * @version $Id$
  */
-namespace hightman\xunsearch;
+namespace qwenode\phpxunsearch;
 
 use yii\base\Action;
 use yii\base\NotSupportedException;

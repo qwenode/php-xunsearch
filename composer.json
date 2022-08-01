@@ -1,5 +1,5 @@
 {
-	"name": "qwenode/php-xunsearch",
+	"name": "qwenode/phpxunsearch",
 	"description": "xunsearch php sdk, include yii, yii2 supports",
 	"keywords": ["xunsearch", "search engine", "yii", "yii2"],
 	"homepage": "http://www.xunsearch.com/",
@@ -26,7 +26,7 @@
 	"autoload": {
 		"classmap": ["lib/", "wrapper/yii-ext/"],
 		"psr-4": {
-			"hightman\\xunsearch\\": "wrapper/yii2-ext/"
+			"qwenode\\php-xunsearch\\": "wrapper/yii2-ext/"
 		}
 	},
 	"bin": [
