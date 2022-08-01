@@ -2,6 +2,8 @@ Xunsearch SDK for PHP
 =====================
 $Id$
 
+此版本 基于官方sdk 升级php8.1 做了一些修复
+
 这是采用 PHP 语言编写的 xunsearch 开发包，在此基础上开发您自己的全文检索。
 
 在此简要介绍以下几个文件：
@@ -38,19 +40,13 @@ Composer 支持
 
 可以直接运行
 
-```
-composer require --prefer-dist hightman/xunsearch "*@beta"
-```
-
-或者将以下内容添加到您的项目根目录 `composer.json` 中的 `require` 章节，
-然后运行 `composer install`
 
 ```
-"hightman/xunsearch": "*@beta"
+composer require qwenode/php-xunsearch
 ```
-
-> tip: 如果您打算用代码仓库中的最新版本，请将星号改为 dev-master。
-
+```
+注意!!! 此版本只支持php8.1以上
+```
 
 ### 命令行工具
 
