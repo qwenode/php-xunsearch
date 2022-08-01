@@ -32,11 +32,6 @@
 	"bin": [
 		"util/xs"
 	],
-	"extra": {
-		"branch-alias": {
-			"dev-master": "1.4.x-dev"
-		}
-	},
 	"archive": {
 		"exclude": ["/dev", "/doc", "/tests"]
 	}
