@@ -32,7 +32,7 @@ class DebugPanel extends Panel
 	public function init()
 	{
 		$this->actions['xunsearch-query'] = [
-			'class' => 'hightman\xunsearch\DebugAction',
+			'class' => 'qwenode\phpxunsearch\DebugAction',
 			'panel' => $this,
 			'com' => $this->com,
 		];
